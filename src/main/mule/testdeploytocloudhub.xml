@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="testdeploytocloudhubFlow" doc:id="3299874c-7e8a-4544-a971-a42ec7487998" >
 		<http:listener doc:name="Listener" doc:id="0d1f4ecb-adad-48b1-9358-70d221ddadac" config-ref="HTTP_Listener_config" path="/tocloud"/>
-		<set-payload value="#['deploy to cloud 989']" doc:name="Set Payload" doc:id="7789329f-f3e8-4d29-8bf4-853153f991ee" />
+		<set-payload value="#['deploy to cloud rr989']" doc:name="Set Payload" doc:id="7789329f-f3e8-4d29-8bf4-853153f991ee" />
 	</flow>
 </mule>
